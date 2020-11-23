@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		  	<div class="container-fluid">
+			    <div class="navbar-header">
+			     	<a class="navbar-brand" href="form.html">MyProject</a>
+			    </div>
+			    <ul class="nav navbar-nav">
+			     	<li><a href="index.html">Home</a></li>
+			     	<li><a href="Survey.html">Survey</a></li>
+			    	<li class="active"><a href="#">Recommendations</a></li>
+			    </ul>
+		 	 </div>
+	</nav>
+	<div class="bg">
+		
+		<div class="center_form">
+			<p class="myp1"><b>Click the genre you want a recommendation on.</b></p>
+			<div class="btn-group">
+				<form method= "POST" action="Recommend.do">
+	    		<button name =genre type="submit" class="btn btn-primary">Action</button>
+	    		<button name =genre type="submit" class="btn btn-primary">Action-adventure</button>
+	    		<button name =genre type="submit" class="btn btn-primary">Adventure</button>
+	    		<button name =genre type="submit" class="btn btn-primary">Role-playing</button>
+	    		<button name =genre type="submit" class="btn btn-primary">Simulation</button>
+	    		<button name =genre type="submit" class="btn btn-primary">Strategy</button>
+	    		<button name =genre type="submit" class="btn btn-primary">Sports</button>
+	    		<button name =genre type="submit" class="btn btn-primary">MMO</button>
+	    		<button name =genre type="submit" class="btn btn-primary">Horror-games</button>
+	    		</form>
+			</div>
+		    	
+
+			<div class="second_subm">
+				<form method= "POST" action="Recommend.do">
+		    		<div class="form-group">
+						<label for="genre">Or if its not in the list write it below:</label>
+						<input type="text" class="form-control" id="usr">
+						
+					</div>
+					<input type="SUBMIT"  class="btn btn-default">
+		    	</form>
+	    	</div>
+
+		</div>
+	</div>
+</body>
+</html>

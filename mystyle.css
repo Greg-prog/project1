@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+
+
+body, html {
+  height: 100%;
+}
+.bg {
+ 
+  background-image: url("https://wallpaperset.com/w/full/c/3/b/238994.jpg");
+
+  
+  height: 100%;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{
+	margin-bottom: 0;
+	
+}
+.center_form{
+	padding-top: 100px;
+	margin: 0 auto;
+    width:80%; /* value of your choice which suits your alignment */
+}
+
+.foo{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color: white;
+	/*background-color: grey;*/
+}
+.form-group{
+	color: white;
+}
+.checkbox{
+	color: white;
+}
+
+.myp1{
+	color: white;
+	padding-bottom: 10px; 
+}
+.myp2{
+	color: white;
+	padding-bottom: 10px; 
+	padding-top: 10px;
+}
+.btn-group{
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+
+
+.second_subm{
+	padding-top: 20px;
+}
